@@ -1,0 +1,66 @@
+
+  @font-face {
+    font-family: 'SSFUIText';
+    src: local('SFUIText-Regular'), local('SFUIText-Regular'),
+        url('../fonts/SFUIText-Regular.woff2') format('woff2'),
+        url('../fonts/SFUIText-Regular.woff') format('woff'),
+        url('../fonts/SFUIText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SSFUIText';
+    src: local('SFUIText-Medium'), local('SFUIText-Medium'),
+        url('../fonts/SFUIText-Medium.woff2') format('woff2'),
+        url('../fonts/SFUIText-Medium.woff') format('woff'),
+        url('../fonts/SFUIText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SSFUIText';
+    src: local('SFUIText-Semibold'), local('SFUIText-Semibold'),
+        url('../fonts/SFUIText-Semibold.woff2') format('woff2'),
+        url('../fonts/SFUIText-Semibold.woff') format('woff'),
+        url('../fonts/SFUIText-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SSFUIText';
+    src: local('SFUIText-Bold'), local('SFUIText-Bold'),
+        url('../fonts/SFUIText-Bold.woff2') format('woff2'),
+        url('../fonts/SFUIText-Bold.woff') format('woff'),
+        url('../fonts/SFUIText-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SSFUIText';
+    src: local('SFUIText-Heavy'), local('SFUIText-Heavy'),
+        url('../fonts/SFUIText-Heavy.woff2') format('woff2'),
+        url('../fonts/SFUIText-Heavy.woff') format('woff'),
+        url('../fonts/SFUIText-Heavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+  @font-face {
+	font-family: 'Segoe UI';
+	src: url('../fonts/SegoeUI.eot');
+	src: url('../fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/SegoeUI.woff') format('woff'),
+	url('../fonts/SegoeUI.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+	@font-face {
+		font-family: 'Segoe UI';
+		src: url('../fonts/SegoeUI-SemiBold.eot');
+		src: url('../fonts/SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SegoeUI-SemiBold.woff') format('woff'),
+		url('../fonts/SegoeUI-SemiBold.ttf') format('truetype');
+		font-weight: 600;
+		font-style: normal;
+		}

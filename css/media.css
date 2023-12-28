@@ -1233,6 +1233,9 @@
     .item-billbord .text-page {
         max-width: 300px;
     }
+    .partnership-block .title-section {
+        font-size: 20px;
+    }
 }
 
 /* Custom, iPhone Retina */

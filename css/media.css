@@ -1097,6 +1097,9 @@
     .item-news__text br {
         display: none;
     }
+    .slider-reviews .slick-track {
+        transition: initial;
+    }
 }
 
 /* Extra Small Devices, Phones */

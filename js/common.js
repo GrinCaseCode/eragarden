@@ -69,6 +69,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
   });
 
+  $(".menu__haschild > a").click(function() {
+    $(this).toggleClass("active");
+	$(this).siblings("ul").slideToggle(200);
+  });
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 

@@ -966,6 +966,34 @@
     .header__right {
         margin-right: -48px;
     }
+
+    .menu a {
+        display: flex;
+        align-items: center;
+    }
+    .menu > li > a {
+        justify-content: space-between;
+    }
+    .menu a i {
+        transition: all 0.3s;
+    }
+    .menu__haschild a.active i {
+        transform: rotate(180deg);
+    }
+    .header__right {
+        margin-right: 0;
+    }
+    .menu a img {
+        margin-right: 10px;
+        filter: brightness(40%);
+    }
+    .menu li ul {
+        padding-left: 10px;
+        display: none;
+    }
+    .menu li ul li a {
+        border: none;
+    }
 }
 
 /* Small Devices, Tablets */

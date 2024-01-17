@@ -69,7 +69,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
   });
 
-  $(".menu__haschild > a").click(function() {
+  $(".menu__haschild > a").click(function(e) {
+	e.preventDefault();
     $(this).toggleClass("active");
 	$(this).siblings("ul").slideToggle(200);
   });

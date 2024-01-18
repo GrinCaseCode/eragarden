@@ -452,6 +452,22 @@
     .header.nav-up {
         transform: translateY(-127px);
     }
+    .page-numbers {
+        margin: 0 20px;
+        font-size: 14px;
+    }
+    .prev.page-numbers, .next.page-numbers {
+        width: 21px;
+        height: 21px;
+        font-size: 18px;
+    }
+    .pager {
+        height: 50px;
+    }
+    .breadcrumbs {
+        padding: 15px 0;
+        font-size: 13px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -660,6 +676,9 @@
     }
     .header.nav-up {
         transform: translateY(-123px);
+    }
+    .pager {
+        margin-top: 20px;
     }
 }
 
@@ -980,7 +999,7 @@
     .menu__haschild a.active i {
         transform: rotate(180deg);
     }
-    .header__right {
+    .menu-mobile .header__right {
         margin-right: 0;
     }
     .menu a img {
@@ -1263,6 +1282,9 @@
     }
     .partnership-block .title-section {
         font-size: 20px;
+    }
+    .page-news {
+        padding-bottom: 45px;
     }
 }
 

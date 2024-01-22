@@ -211,6 +211,64 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			]
 		});
 
+		$('.slider-article').slick({
+			arrows: false,
+			dots: true,
+			infinite: true,
+			autoplay: true,
+			autoplaySpeed: 4000,	
+			touchThreshold: 1000,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+			nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+			});
+
+			$('.slider-for').slick({
+				arrows: false,
+				dots: false,
+				infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				asNavFor: '.slider-nav',
+				touchThreshold: 1000,
+				prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+				nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+			});
+		
+			$('.slider-nav').slick({
+				arrows: false,
+				dots: false,
+				infinite: true,
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				vertical: true,
+				verticalSwiping: true,
+				asNavFor: '.slider-for',
+				touchThreshold: 1000,
+				focusOnSelect: true,
+				prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+				nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+				responsive: [
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 4,
+						vertical: false,
+						verticalSwiping: false,
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 4,
+						vertical: false,
+						verticalSwiping: false,
+					}
+				}
+				]
+			});
+
 	$('.tabs li a').click(function(event) {
 		event.preventDefault();
 		$(this).parent().parent().find("li").removeClass('active');

@@ -1735,7 +1735,7 @@
         padding-bottom: 40px;
     }
     .page-catalog .tabs {
-        margin-bottom: 0;
+        margin-bottom: 15px;
     }
     .page-about .tabs a {
         min-width: initial;

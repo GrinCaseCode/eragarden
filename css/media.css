@@ -527,11 +527,11 @@
         margin-top: 27px;
         margin-bottom: 17px;
     }
-    .article-content blockquote {
+    blockquote {
         padding: 38px 65px;
         padding-right: 24px;
     }
-    .article-content blockquote::before {
+    blockquote::before {
         left: 4px;
         top: -9px;
         font-size: 110px;
@@ -645,6 +645,108 @@
     }
     .form-common .checkbox {
         margin-top: 12px;
+    }
+    .item-sidebar__head {
+        padding: 10px 20px;
+        padding-right: 13px;
+        font-size: 17px;
+    }
+    .item-sidebar__head i {
+        font-size: 15px;
+    }
+    .item-sidebar__content {
+        padding: 0 35px;
+        padding-bottom: 20px;
+    }
+    .item-sidebar__content li {
+        margin-bottom: 13px;
+    }
+    .page-catalog .row_main > div {
+        margin-bottom: 30px;
+    }
+    .sidebar-catalog {
+        top: 50px;
+        max-height: calc(100vh - 50px);
+    }
+    .header.nav-down ~ * .sidebar-catalog {
+        top: 177px;
+        max-height: calc(100vh - 177px);
+    }
+    .text-big p {
+        margin-bottom: 15px;
+    }
+    .text-big {
+        font-size: 17px;
+    }
+    .page-about blockquote {
+        font-size: 13px;
+    }
+    .title-about {
+        font-size: 28px;
+    }
+    .item-number__number {
+        font-size: 62px;
+        margin-bottom: 15px;
+    }
+    .item-number {
+        padding: 35px 33px;
+        padding-bottom: 45px;
+    }
+    .info-about {
+        padding: 60px 56px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .row_numbers > div {
+        margin-bottom: 25px;
+    }
+    blockquote .text-big {
+        margin-bottom: 14px;
+    }
+    blockquote.blockquote_about p {
+        margin-bottom: 8px !important;
+    }    
+    .page-about .title-section {
+        padding-bottom: 16px;
+    }
+    .text-main {
+        font-size: 14px;
+    }
+    .item-team__image {
+        height: 305px;
+    }
+    .item-team__name {
+        font-size: 16px;
+    }
+    .item-team__content {
+        padding: 9px 12px;
+        padding-right: 5px;
+        padding-bottom: 17px;
+    }
+    .row_team > div {
+        padding: 0 8px;
+        margin-bottom: 18px;
+    }
+    .row_team {
+        margin: 0 -8px;
+    }
+    blockquote li {
+        margin-bottom: 7px;
+    }
+    .item-video::after {
+        width: 90px;
+        height: 90px;
+    }
+    .unit-catalog__image {
+        height: 260px;
+    }
+    .unit-catalog__content {
+        padding: 18px 10px;
+        padding-bottom: 0;
+    }
+    .logo-manufacturers {
+        width: 181px;
+        height: 75px;
     }
 }
 /* Large Devices, Wide Screens */
@@ -909,6 +1011,63 @@
     .unit-contact {
         font-size: 13px;
     }
+    .item-sidebar__head {
+        padding: 10px 15px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .item-sidebar__content {
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+    .item-sidebar__head i {
+        font-size: 13px;
+    }
+    .page-catalog .row_main > div {
+        margin-bottom: 20px;
+    }
+    .sidebar-catalog {
+        top: 45px;
+        max-height: calc(100vh - 45px);
+    }
+    .header.nav-down ~ * .sidebar-catalog {
+        top: 168px;
+        max-height: calc(100vh - 168px);
+    }
+    .page-about .tabs a {
+        min-width: 165px;
+    }
+    .text-big {
+        font-size: 15px;
+    }
+    .text-big p {
+        margin-bottom: 10px;
+    }
+    .text-main {
+        font-size: 13px;
+    }
+    .item-number__number {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .info-about {
+        padding: 35px 25px;
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+    .row_numbers {
+        padding-bottom: 10px;
+    }
+    .row_numbers > div {
+        margin-bottom: 15px;
+    }
+    .item-team__image {
+        height: 245px;
+    }
+    blockquote li {
+        margin-bottom: 5px;
+    }
+    
 }
 
 /* Medium Devices, Desktops */
@@ -1282,7 +1441,7 @@
     .slider-article__image {
         height: 335px;
     }
-    .article-content blockquote {
+    blockquote {
         margin-bottom: 20px;
     }
     .hidden-mobile {
@@ -1306,6 +1465,54 @@
     }
     .logo-wrap {
         margin: 0 auto;
+    }
+    .sidebar-catalog {
+        margin-bottom: 20px;
+        top: 0 !important;
+        overflow: initial;
+        max-height: initial !important;
+        display: none;
+        transition: initial;
+    }
+    .wrapper {
+        overflow: hidden;
+    }
+    .btn-main_filter {
+		padding: 0 20px;
+		height: 50px;
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+    .page-about .tabs a {
+        min-width: 125px;
+    }
+    .item-team__content {
+        padding: 11px 15px;
+        padding-right: 8px;
+        padding-bottom: 15px;
+    }
+    .item-team__name {
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+    .row_team > div {
+        margin-bottom: 13px;
+    }
+    .row_team {
+        padding-bottom: 7px;
+    }
+    .image-manufacturers {
+        margin-top: 20px;
+    }
+    .unit-catalog__image {
+        height: 230px;
+    }
+    .page-about .block-form {
+        margin-top: 20px;
+    }
+    .title-section.title-section_numbers {
+        padding-top: 25px;
     }
 }
 
@@ -1527,6 +1734,15 @@
     .page-conditions ~ .steps {
         padding-bottom: 40px;
     }
+    .page-catalog .tabs {
+        margin-bottom: 0;
+    }
+    .page-about .tabs a {
+        min-width: initial;
+    }
+    .page-about .cooperation {
+        padding-top: 30px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -1672,11 +1888,11 @@
     .row_contacts > div {
         padding-bottom: 10px;
     }
-    .article-content blockquote {
+    blockquote {
         padding: 30px 20px;
         padding-top: 50px;
     }
-    .article-content blockquote::before {
+    blockquote::before {
         top: -26px;
     }
     .article-content ul {
@@ -1702,6 +1918,49 @@
     .page-delivery .tabs li:nth-child(2) {
         width: 100%;
         order: 2;
+    }
+    .page-catalog .row_main > div {
+        margin-bottom: 10px;
+    }
+    blockquote.blockquote_about {
+        padding-top: 45px;
+    }
+    .info-about {
+        padding: 28px 20px;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .title-section.title-section_numbers {
+        padding-top: 20px;
+    }
+    .title-about {
+        font-size: 24px;
+    }
+    .item-team__image {
+        height: 197px;
+    }
+    .item-team__content {
+        padding: 9px 10px;
+        padding-right: 6px;
+        padding-bottom: 13px;
+    }
+    .page-about {
+        padding-bottom: 35px;
+    }
+    .item-video::after {
+        width: 70px;
+        height: 70px;
+    }
+    .unit-catalog__image {
+        height: 180px;
+    }
+    .unit-catalog__content {
+        padding: 0;
+        padding-top: 15px;
+    }
+    .unit-catalog .btn-main {
+        padding: 0 5px;
+        width: 100%;
     }
 }
 
@@ -1730,6 +1989,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    .sidebar-catalog,
     .header-search,
     .header-bottom,
     .footer__content {
